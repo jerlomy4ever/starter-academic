@@ -22,24 +22,31 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
-    date_start: '2017-01-01'
-    date_end: ''
+  - title: Robotics Engineer
+    company: ADLINK
+    company_url: 'https://www.adlinktech.com/en/index'
+    location: Taipei, Taiwan
+    date_start: '2020-06-01'
+    date_end: '2020-08-14'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Built mobile robot running under either ROS (Robot Operating System) or ROS2.
+        * Simulated the robot with Gazebo to save time and evaluate the function I built.
+        * Implemented LOAM (LiDAR Odometry and Mapping in Real-time) and UKF (Unscented Kalman Filter) with a Velodyne’s LiDAR, VLP-16, to lower the localization error of AMCL (Adaptive Monte Carlo Localization).
+        * Accelerated AMCL with GPU by 30% while the pose error is about 50% less.
+        * Replaced TEB (Timed Elastic Band) with DWA (Dynamic Window Approach) as the controller to rise the success rate of navigation by 20%.
         
-  - title: Professor
-    company: University X
+  - title: Robotics Engineer
+    company: Advanced Robotics
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Taipei, Taiwan
+    date_start: '2018-11-01'
+    date_end: '2019-04-30'
+    description: |2-
+        Responsibilities include:
+        
+        * Built an AGV (Automated guided vehicle) and implemented the system on ROS to deliver items in a hotel.
+        * Generated the map with gmapping, laser-based SLAM (Simultaneous Localization And Mapping).
+        * Localized the robot with AMCL and 2D LiDAR, RPLiDAR, while the initial pose is defined by AprialTag scanned by an RGB camera.
 ---
