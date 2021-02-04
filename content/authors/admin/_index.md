@@ -63,4 +63,4 @@ highlight_name: false
 
 Jeremy Lu graduated from University of Michigan and majored in electrical and computer engineering. His research interests mainly focus on mobile robotics and self-driving car.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "resume/j.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "resume/JeremyLu.pdf" "newtab" >}}resumé{{< /staticref >}}.
